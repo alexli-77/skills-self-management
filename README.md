@@ -26,6 +26,13 @@
 
 ---
 
+## 配套工具
+
+如果你想把 Review 流程进一步自动化（读取飞书 Weekly 表格 → 对比执行 → 自动生成下周计划写回飞书），
+配套使用 [life-review-os](https://github.com/alexli-77/life-review-os) — 基于柯维框架的 Weekly Review 自动化 Skill。
+
+---
+
 ## 快速开始
 
 ### 前置条件
@@ -48,7 +55,7 @@
 ```bash
 # 克隆到你的 Claude 工作空间
 cd ~/claude_workspace
-git clone https://github.com/YOUR_USERNAME/skills-self-management.git
+git clone https://github.com/alexli-77/skills-self-management.git
 
 # 或者放到项目的 .claude/skills/ 下
 cd your-project
@@ -64,6 +71,7 @@ cp -r path/to/skills-self-management/* .claude/skills/
 skills-self-management/
 ├── stephen-covey/                      # 主人格 + 子技能调度
 ├── circle-of-influence/                # 习惯 1 · 积极主动
+├── life-center-diagnosis/              # 习惯 2 前置 · 生活中心诊断
 ├── personal-mission-statement/         # 习惯 2 · 以终为始
 ├── quadrant-ii-time-management/        # 习惯 3 · 要事第一
 ├── win-win-agreement/                  # 习惯 4 · 双赢思维
@@ -78,6 +86,7 @@ skills-self-management/
 |--------|---------|---------|
 | **stephen-covey** | 总控 | 统筹调度其他技能，提供柯维人格 |
 | **circle-of-influence** | 习惯 1 | 把精力从"关注圈"拉回"影响圈" |
+| **life-center-diagnosis** | 习惯 2 前置 | 识别当下被什么锚定，引向原则中心 |
 | **personal-mission-statement** | 习惯 2 | 建立/审视人生宣言 |
 | **quadrant-ii-time-management** | 习惯 3 | 诊断时间去向，聚焦 Q2 |
 | **win-win-agreement** | 习惯 4 | 谈判与协议的双赢结构设计 |
