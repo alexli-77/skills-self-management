@@ -2,6 +2,10 @@
 
 [English](README.md) | [中文](README.zh.md)
 
+<p align="center">
+  <img src="docs/assets/skills-self-management-banner.png" alt="Skills for Self-Management" width="700">
+</p>
+
 > A Claude Agent Skills collection based on Stephen Covey's *The 7 Habits of Highly Effective People*.
 > Designed to help you audit your mission statement, long-term plans, and weekly schedule from a principled viewpoint — and surface the blind spots you can't see on your own.
 
